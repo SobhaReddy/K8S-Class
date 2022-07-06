@@ -14,8 +14,8 @@ spec:
    metadata:
      name: mypod
      labels:
-       app: webserver
-	 env: QA
+       type: webserver
+       env: QA
    spec:
      containers:
        - image: mynginx
