@@ -15,8 +15,8 @@ spec:
      name: mypod
      labels:
        app: webserver
-	   env: QA
+	 env: QA
    spec:
      containers:
-	   - image: mynginx
-	     name: myc2
+       - image: mynginx
+	 name: myc2
