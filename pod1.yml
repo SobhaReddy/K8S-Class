@@ -1,0 +1,14 @@
+# K8S-Class
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod1
+  labels:
+    type: webserver
+    app: myapp
+    env: QA
+spec:
+  containers:
+   - name: c1
+     image: nginx
