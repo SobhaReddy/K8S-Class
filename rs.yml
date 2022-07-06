@@ -9,7 +9,7 @@ spec:
  replicas: 3
  selector:
     matchLabels:
-	  type: webserver
+     type: webserver
  template:
    metadata:
      name: mypod
