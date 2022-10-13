@@ -7,12 +7,12 @@ spec:
  selector:
    matchLabels:
      type: webserver
-   template:
-      metadata:
-        name: tomcat-pod
-        labels:
-           type: webserver
-        spec:
+ template:
+    metadata:
+       name: tomcat-pod
+       labels:
+          type: webserver
+       spec:
           containers:
             - name: mytomcat
               image: tomcat
